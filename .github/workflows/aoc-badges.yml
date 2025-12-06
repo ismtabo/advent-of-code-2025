@@ -1,0 +1,22 @@
+name: Update AoC Badges
+on:
+  schedule:
+    - cron: "59 23 1-12 6 *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: joblo2213/aoc-badges-action@v3
+        with:
+          userid: 387671
+          session: ${{ secrets.AOC_SESSION }}
+          year: 2025
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "doc: update badges"
+          commit_user_name: Ismael Taboada
+          commit_user_email: ismael.jtr@gmail.com
+          file_pattern: README.md
