@@ -33,7 +33,7 @@ Each day solution has the following structure:
 
 ## Authors
 
-- Ismael Taboada - Frontend developer - [@ismtabo][1]
+- Ismael Taboada - [@ismtabo][1]
 
 ## License
 
