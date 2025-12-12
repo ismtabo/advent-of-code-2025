@@ -1,7 +1,7 @@
 # Advent of Code 2025
 
-![](https://img.shields.io/badge/day%20📅-11-blue)
-![](https://img.shields.io/badge/stars%20⭐-13-yellow)
+![](https://img.shields.io/badge/day%20📅-12-blue)
+![](https://img.shields.io/badge/stars%20⭐-14-yellow)
 ![](https://img.shields.io/badge/days%20completed-6-red)
 
 Repository of solutions for the [Advent of Code 2025][2]. This year the language is Ruby. Enjoy programming!
